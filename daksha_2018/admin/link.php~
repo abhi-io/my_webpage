@@ -1,0 +1,6 @@
+<?php
+
+mysql_connect ('localhost','batch1','batch1');
+mysql_select_db('batch1');
+	
+	?>
