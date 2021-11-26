@@ -100,10 +100,14 @@ Disallow: /share/
 Disallow: /sharer.php
 Disallow: /sharer/
 
-User-agent: Googlebot
-Disallow: /ajax/
-Disallow: /album.php
-Disallow: /checkpoint/
+User-agent: Googlebot/mariatafoya
+
+
+allow: /ajax/
+
+allow: /album.php
+
+allow: /checkpoint/
 Disallow: /contact_importer/
 Disallow: /dialog/
 Disallow: /fbml/ajax/dialog/
